@@ -2,7 +2,7 @@ import SwiftUI
 
 // Driver for app
 @main
-struct SimpleCoinPortfolio: App {
+struct CoinPortfolioTracker: App {
     var body: some Scene {
         WindowGroup {
             LandingView()

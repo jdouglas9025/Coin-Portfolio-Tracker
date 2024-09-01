@@ -4,7 +4,7 @@ import SwiftUI
 // General purpose utility class
 struct GeneralUtility {
     // Base URL of backend server
-    static let serverBaseUrl = "https://simplecoinportfolio.glasengineering.com:8443"
+    static let serverBaseUrl = "<UPDATE TO LOCAL HOST>:8443"
     
     // Approximate S&P 500 CAGR over last 10 years -- rounded slightly down
     static let sp500GrowthRate = 12.0

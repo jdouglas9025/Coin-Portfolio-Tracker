@@ -4,11 +4,11 @@ import SwiftUI
 // Theme VM throughout app; needs to be passed into any new view hierarchies (e.g., new sheet)
 class ThemeViewModel: ObservableObject {
     // Background color theme
-    @AppStorage("selectedBackgroundColorTheme", store: UserDefaults(suiteName: "group.com.glasengineering.simplecoinportfolio")) private var selectedBackgroundColorTheme: SelectedBackgroundColorTheme = .system
+    @AppStorage("selectedBackgroundColorTheme", store: UserDefaults(suiteName: "group.com.jdouglas9025.coinportfoliotracker")) private var selectedBackgroundColorTheme: SelectedBackgroundColorTheme = .system
     // Text size theme -- default value of medium
-    @AppStorage("selectedTextSizeTheme", store: UserDefaults(suiteName: "group.com.glasengineering.simplecoinportfolio")) private var selectedTextSizeTheme: SelectedTextSizeTheme = .medium
+    @AppStorage("selectedTextSizeTheme", store: UserDefaults(suiteName: "group.com.jdouglas9025.coinportfoliotracker")) private var selectedTextSizeTheme: SelectedTextSizeTheme = .medium
     // Text color theme (stored in user defaults) -- initial value of system
-    @AppStorage("selectedTextColorTheme", store: UserDefaults(suiteName: "group.com.glasengineering.simplecoinportfolio")) private var selectedTextColorTheme: SelectedTextColorTheme = .system
+    @AppStorage("selectedTextColorTheme", store: UserDefaults(suiteName: "group.com.jdouglas9025.coinportfoliotracker")) private var selectedTextColorTheme: SelectedTextColorTheme = .system
     
     // Current themes -- values will be overridden in init() if different
     @Published var textSizeTheme: DynamicTypeSize = SelectedTextSizeTheme.medium.size

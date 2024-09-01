@@ -24,12 +24,12 @@ class PrimaryViewModel: ObservableObject {
     @Published var portfolios: [String: ([Coin], Double, Double, [any Summarizable], Bool)] = [:]
     
     // User-selected portfolio (default is "0") -- persisted in app storage to ensure selected portfolio is active upon next boot
-    @AppStorage("selectedPortfolioId", store: UserDefaults(suiteName: "group.com.glasengineering.simplecoinportfolio")) var selectedPortfolioId = "0"
+    @AppStorage("selectedPortfolioId", store: UserDefaults(suiteName: "group.com.jdouglas9025.coinportfoliotracker")) var selectedPortfolioId = "0"
     
     // Portfolio sort option (default is biggest holdings first) -- only sort option persisted since others are not related to any saved data
     // Need published value to re-render views upon change
     @Published var portfolioSortOption: SortOption = .reverseHoldings
-    @AppStorage("selectedPortfolioSortOption", store: UserDefaults(suiteName: "group.com.glasengineering.simplecoinportfolio")) var selectedPortfolioSortOption: SortOption = .reverseHoldings
+    @AppStorage("selectedPortfolioSortOption", store: UserDefaults(suiteName: "group.com.jdouglas9025.coinportfoliotracker")) var selectedPortfolioSortOption: SortOption = .reverseHoldings
 
     // Filters in search bar
     @Published var portfolioSearchBarText = ""

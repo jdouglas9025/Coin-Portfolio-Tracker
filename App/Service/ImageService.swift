@@ -12,7 +12,7 @@ class ImageService {
     private let imageName: String
     
     private let localFileManager = LocalFileManager.instance
-    private let folderName = "simplecoinportfolio-app-images"
+    private let folderName = "coinportfoliotracker-app-images"
     private let localCacheManager = LocalCacheManager.instance
     
     // Image's stored location (file manager for coin images; cache for news images)
