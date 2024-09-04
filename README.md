@@ -2,7 +2,7 @@
 
 Coin Portfolio Tracker is a full stack iOS app for advanced cryptocurrency portfolio tracking and analysis. It allows users to perform comprehensive tracking of their cryptocurrency portfolio as well as useful analysis such as future value estimation. It also features a powerful recommendation system (based on coins already in the user's portfolio) and provides a real-time collection of trending news articles (retrieved from Google News). The backend server leverages features such as caching and rate limiting to improve service quality and reliability. 
 
-This project is built using Java, Python, Spring Boot (including frameworks for caching), and Swift/SwiftUI (including frameworks such as Combine). The app is compatible with devices running iOS 17+.
+This app is compatible with devices running iOS 17+.
 
 ## Key Highlights
 
@@ -12,13 +12,13 @@ This project is built using Java, Python, Spring Boot (including frameworks for 
 
 • Utilized Swift/SwiftUI and frameworks such as Combine and Swift Charts for frontend interface
 
-## Languages
+## Languages and Frameworks
 
-Java, Python, Spring Boot, Swift/SwiftUI (including Combine and Swift Charts)
+This project is built using Java, Python, Spring Boot, and Swift/SwiftUI. In addition to these primary languages, the project also leverages a variety of supplementary frameworks such as GSON, Caffeine (caching), Bucket4J (rate limiting), Swift Combine, and Swift Charts. 
 
 ## Systems
 
-AWS EC2
+The backend server is deployed on an AWS EC2 instance.
 
 ## Example Screenshots
 Note: Additional screenshots to be added within the next few days.
