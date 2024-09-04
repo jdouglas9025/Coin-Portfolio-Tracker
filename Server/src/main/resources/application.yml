@@ -1,0 +1,47 @@
+server:
+  # Set to 8443 to SSL
+  port: 8443
+  # Set context path (base path) for endpoints
+  servlet:
+    context-path: /api/v1
+  # SSL configuration
+  ssl:
+    key-store: keystore.p12
+    key-store-password: ${sslCertPassword}
+    key-store-type: pkcs12
+    key-alias: backend
+    key-password: ${sslCertPassword}
+
+# CoinGecko API Key
+custom:
+  coinGecko:
+    apiKey: ${coinGeckoApiKey}
+
+# Spring caching config
+spring:
+  cache:
+    jcache:
+      provider: com.github.benmanes.caffeine.jcache.spi.CaffeineCachingProvider
+    cache-names:
+      - buckets
+      - filterConfigCache
+    caffeine:
+      spec: maximumSize=100000,expireAfterAccess=300s
+
+# Bucket4j rate limiting by IP address
+bucket4j:
+  enabled: true
+  filter-config-caching-enabled: true
+  filters:
+    - id: filter1
+      cache-name: buckets
+      url: .*
+      rate-limits:
+        # Limit based on IP address
+        - cache-key: getRemoteAddr()
+          bandwidths:
+            # Set limit of 8 requests in 70s
+            # Each app load uses 4 calls, so two possible app loads in 70s
+            - capacity: 8
+              time: 70
+              unit: seconds
