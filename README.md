@@ -27,17 +27,16 @@ Note: Additional screenshots to be added within the next few days.
 
 Summary: Shows an overview of the currently selected portfolio. Includes one day value changes (in dollars and percentages), current prices, and holding values. Also offers the ability to filter coins based on a search term, sort coins using predefined criteria (e.g., sort by holding value), and view holding profits/losses.
 
-![PortfolioViewiPhone15Pro](https://github.com/user-attachments/assets/d6814d5c-ec42-4e4d-8911-f49f13d1b0d2)
+<img src="https://github.com/user-attachments/assets/d6814d5c-ec42-4e4d-8911-f49f13d1b0d2" width="240">
 
 #### Top Coins View
 
 Summary: Shows an overview of the top 1000 coins by marketcap. Utilizes a lazy loading approach to improve response time. Includes one day value changes (in percentages) as well as current prices. Also offers the ability to filter coins based on a search term, sort coins using predefined criteria (e.g., sort by market cap), and view market statistics such as total market cap.
 
-![TopCoinsViewiPhone15Pro](https://github.com/user-attachments/assets/c4cd8a56-4eca-4b59-986f-2a92eefde537)
+<img src="https://github.com/user-attachments/assets/c4cd8a56-4eca-4b59-986f-2a92eefde537" width="240">
 
 #### Detail Coin View
 
 Summary: Shows an in-depth overview of a selected coin. Includes current price, one day value change (in dollars and percentage) as well as other information such as description and rank. Also provides an interactive chart showing price performance over a specified interval (default seven days).
 
-![DetailViewiPhone15Pro](https://github.com/user-attachments/assets/60e66f92-b949-49b6-b57a-236d57e47264)
-
+<img src="https://github.com/user-attachments/assets/60e66f92-b949-49b6-b57a-236d57e47264" width="240">
