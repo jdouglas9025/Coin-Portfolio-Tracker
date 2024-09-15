@@ -66,7 +66,7 @@ Summary: Allows a user to estimate what their portfolio might be worth given a c
 
 #### Market View
 
-Summary: Shows a list of trending coins and news articles. News articles are retrieved from Google News and loaded from the publisher's website via an in-app browser. For news articles, users also have the ability to filter results by keyword and/or published date.
+Summary: Shows a list of trending coins and news articles. News articles are retrieved from Google News and loaded from the publisher's website via an in-app browser. For news articles, users have the ability to filter results by keyword and/or published date.
 
 <img src="https://github.com/user-attachments/assets/f82b6b56-21a8-40ff-b8b2-809c27bb5cf9" width="240">
 
@@ -74,5 +74,5 @@ Summary: Shows a list of trending coins and news articles. News articles are ret
 
 Summary: Allows the user to customize various UI-related settings, such as dark mode, font color, and font size. Any changes are reflected nearly instantly throughout the entire app (no manual reload required).
 
-<img src="https://github.com/user-attachments/assets/4820e778-8792-4039-b922-d6b9f8420ef7" width="240">
+<img src="https://github.com/user-attachments/assets/9b5fc64c-ec28-4d65-9e21-37a20e8bf743" width="240">
 
