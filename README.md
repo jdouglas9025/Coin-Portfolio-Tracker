@@ -21,7 +21,6 @@ This project is built using Java, Python, Spring Boot, and Swift/SwiftUI. In add
 The backend server is deployed on an AWS EC2 instance.
 
 ## Example Screenshots
-Note: Additional screenshots to be added within the next few days.
 
 ### Portfolio Management
 
@@ -42,3 +41,38 @@ Summary: Shows an overview of the top 1000 coins by marketcap. Utilizes a lazy l
 Summary: Shows an in-depth overview of a selected coin. Includes current price, one day value change (in dollars and percentage) as well as other information such as description and rank. Also provides an interactive chart showing price performance over a specified interval (default seven days).
 
 <img src="https://github.com/user-attachments/assets/60e66f92-b949-49b6-b57a-236d57e47264" width="240">
+
+#### Total Value View
+
+Summary: Shows an in-depth overview of the performance for the currently active portfolio. Includes various metrics related to total value change over a specified interval (default seven days) and provides an interactive chart for visualizing value change on an hour-to-hour basis.
+
+<img src="https://github.com/user-attachments/assets/28720e96-31a1-4781-8fdb-35023e7baec1" width="240">
+
+### Calculators
+
+#### Future View
+
+Summary: Provides a user with an overview of their custom goals as well as progress towards these goals. Also allows the user to access four different calculators related to investing (future value, historical CAGR, breakeven point, and capital gains).
+
+<img src="https://github.com/user-attachments/assets/4521fbbd-ce1a-455b-9ce4-c19a5af52e6f" width="240">
+
+#### Future Value (Reverse CAGR) Calculator
+
+Summary: Allows a user to estimate what their portfolio might be worth given a certain annual growth rate and timeframe. Computes future value and provides an interactive chart showing total value over the specified interval.
+
+<img src="https://github.com/user-attachments/assets/746a4bc7-ad42-47f3-8a11-22e6b0c0bc1c" width="240">
+
+### Other
+
+#### Market View
+
+Summary: Shows a list of trending coins and news articles. News articles are retrieved from Google News and loaded from the publisher's website via an in-app browser. For news articles, users also have the ability to filter results by keyword and/or published date.
+
+<img src="https://github.com/user-attachments/assets/f82b6b56-21a8-40ff-b8b2-809c27bb5cf9" width="240">
+
+#### Settings View
+
+Summary: Allows the user to customize various UI-related settings, such as dark mode, font color, and font size. Any changes are reflected nearly instantly throughout the entire app (no manual reload required).
+
+<img src="https://github.com/user-attachments/assets/4820e778-8792-4039-b922-d6b9f8420ef7" width="240">
+
