@@ -6,9 +6,11 @@ The frontend app is compatible with devices running iOS 17+.
 
 ## Key Highlights
 
-•	Utilized Swift, frameworks such as SwiftUI and Combine, and design patterns such as Publisher-Subscriber to create reactive, loosely coupled components for modern iOS frontend
-•	Deployed an efficient Spring Boot backend on AWS EC2, integrating Bucket4J for IP-based rate limiting and building an in-memory caching solution with cron-scheduled refreshes for vendor-sourced market data
-•	Built a Python recommendation script using cosine similarity analysis of coin descriptions to generate personalized suggestions for users based on current portfolio holdings
+*	Utilized Swift, frameworks such as SwiftUI and Combine, and design patterns such as Publisher-Subscriber to create reactive, loosely coupled components for modern iOS frontend
+
+* Deployed an efficient Spring Boot backend on AWS EC2, integrating Bucket4J for IP-based rate limiting and building an in-memory caching solution with cron-scheduled refreshes for vendor-sourced market data
+
+*	Built a Python recommendation script using cosine similarity analysis of coin descriptions to generate personalized suggestions for users based on current portfolio holdings
 
 ## Languages and Frameworks
 
